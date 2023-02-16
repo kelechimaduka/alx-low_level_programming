@@ -1,10 +1,14 @@
 #include <stdio.h>
 
 /*
- * This code is to print a sentence and start
+ * Main: This code is to print a sentence and start
  * a new line
- * also aims to return zero
+ *
+ * Documentation: File existe to print th line below
+ *
+ * Return: also aims to return zero
 */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
