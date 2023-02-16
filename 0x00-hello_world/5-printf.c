@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * Main: This code is to print a sentence and start
+/**
+ * main - This code is to print a sentence and start
  * a new line
  *
  * Documentation: File existe to print th line below
