@@ -11,8 +11,9 @@
 int main(void)
 
 {
-	char alph = 'abcdefghijklmnopqrstuvwxyz';
+	char alph;
 
+	for (alph =  a; alph <= z; alph++)
 	{
 	putchar(alph);
 	}
