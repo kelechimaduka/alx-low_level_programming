@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <conio.h>
 
 /**
  * main -as seen
@@ -17,23 +18,32 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 
-	for (last_digit = 1; last_digit < 6; last_digit++)
-	{
-		printf("Last digit of %d is %d and is less than 6 and not
-			0\n", n, last_digit);
-	}
 	if (last_digit > 5)
 
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
+		printf("Last digit of %d is %d and is greater than 5\n",
+			n, last_digit);
+
 	}
 
-	else
+	else if (last_digit < 6)
 
 	{
-		printf("Last digit of %d is %d and is 0\n", n, last_digit);
+
+		if (last_digit > 1)
+
+		{
+			printf("Last digit of %d is %d and is less than 6
+					and not zero\n", n, last_digit);
+		}
+
+		else
+
+		{
+			printf("Last digit of %d is %d and is 0\n", n, la
+					st_digit);
+		}
+
 	}
-
-	return (0);
+return (0);
 }
-
