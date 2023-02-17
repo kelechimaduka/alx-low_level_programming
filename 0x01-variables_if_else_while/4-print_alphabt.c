@@ -9,19 +9,16 @@
  */
 
 int main(void)
-
 {
 	char alph;
 
 	for (alph = 'a'; alph <= 'z'; alph++)
+	{
+		if (alph != 'e' && alph != 'q')
 		{
-			if (alph != 'q' && alph != 'e')
-
-			{
-				putchar(alph);
-			}
-
+			putchar(alph);
 		}
+	}
 
 	putchar('\n');
 
