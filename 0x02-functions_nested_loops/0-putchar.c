@@ -9,7 +9,7 @@
  * Return: Result return
  */
 
-int tchar(char c)
+int tchar(char *c)
 {
 	return (write(1, &c, 1));
 }
