@@ -26,7 +26,5 @@ int main(void)
 {
 	int val = _putchar("_putchar");
 
-	putchar(val);
-
 	return (val);
 }
