@@ -25,7 +25,8 @@ int tchar(char* c)
 int main(void)
 {
 
-	tchar(_putchar)
+	tchar("_putchar");
+	tchar(0x0A);
 
 	return (0);
 }
