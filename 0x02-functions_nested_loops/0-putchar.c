@@ -11,7 +11,7 @@
  * Return: value 1.
  */
 
-int tchar(char* c)
+int tchar(char* )
 {
 	return (write(1, &c, 1));
 }
@@ -26,7 +26,6 @@ int main(void)
 {
 
 	tchar("_putchar");
-	tchar(0x0A);
 
 	return (0);
 }
