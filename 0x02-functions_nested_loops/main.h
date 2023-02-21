@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int tchar(char*);
+int tchar(char *);
 
 #endif
