@@ -12,7 +12,7 @@
  * Return: value 1.
  */
 
-int _putchar(char _putchar)
+int _putchar(char c[20])
 {
 	return (write(1, &c, 1));
 }
