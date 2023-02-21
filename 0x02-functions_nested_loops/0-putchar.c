@@ -25,7 +25,15 @@ int tchar(char *c)
 int main(void)
 {
 
-	tchar(char "_putchar\n");
+	tchar("_");
+	tchar("p");
+	tchar("u");
+	tchar("t");
+	tchar("c");
+	tchar("h");
+	tchar("a");
+	tchar("r");
+	tchar("\n");
 
 	return (0);
 }
