@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 #include "main.h"
 
@@ -12,7 +11,7 @@
  * Return: value 1.
  */
 
-int _putchar(char c[])
+int _putchar(c)
 {
 	return (write(1, &c, 1));
 }
@@ -24,12 +23,11 @@ int _putchar(char c[])
  *
  */
 int main(void)
-
 {
 	int val;
-	char value[] = "_putchar";
+	char* value = "_putchar";
 
-	val = _putchar(value[]);
+	val = _putchar(value);
 
 	putchar(val);
 	return (0);
