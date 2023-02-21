@@ -4,6 +4,8 @@
 /**
  * tchar - function to print
  *
+ * @c: the concerned argument
+ *
  * Return: Result return
  */
 
@@ -21,8 +23,8 @@ int tchar(char *c)
 int main(void)
 {
 
-	tchar("_");
-	tchar("p");
+	tchar(95);
+	tchar("112");
 	tchar("u");
 	tchar("t");
 	tchar("c");
