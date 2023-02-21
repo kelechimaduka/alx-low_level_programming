@@ -23,8 +23,8 @@ int tchar(char *c)
 int main(void)
 {
 
-	tchar("95");
-	tchar("112");
+	tchar("_");
+	tchar("p");
 	tchar("u");
 	tchar("t");
 	tchar("c");
