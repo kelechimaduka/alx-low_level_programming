@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putchar - writes the content of c
+ * tchar - writes the content of c
  *
  * @c : to be printed
  *
@@ -25,7 +25,7 @@ int tchar(char *c)
 int main(void)
 {
 
-	tchar("_putchar\n");
+	tchar(char "_putchar\n");
 
 	return (0);
 }
