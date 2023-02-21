@@ -14,7 +14,7 @@ void jack_bauer(void)
 	{
 		int m = 0;
 
-		for (n = 0; n <= 59; n++)
+		for (m = 0; m <= 59; m++)
 		{
 			_putchar(m / 10 + 48);
 			_putchar(m % 10 + 48);
