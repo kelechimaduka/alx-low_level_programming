@@ -1,7 +1,8 @@
 #include <unistd.h>
+#include "main.h"
 
 /**
- * tchar - writes the content of c
+ * _putchar - writes the content of c
  *
  * @c : to be printed
  *
@@ -10,7 +11,7 @@
  * Return: value 1.
  */
 
-int tchar(char *c)
+int _putchar(char *c)
 {
 	return (write(1, &c, 1));
 }

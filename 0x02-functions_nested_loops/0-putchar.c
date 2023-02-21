@@ -1,19 +1,4 @@
-#include <unistd.h>
-#include <string.h>
 #include "main.h"
-
-/**
- * tchar - function to print
- *
- * @c: the concerned argument
- *
- * Return: Result return
- */
-
-int _putchar(char *c)
-{
-	return (write(1, &c, strlen(c)));
-}
 
 /**
  * main- main code
