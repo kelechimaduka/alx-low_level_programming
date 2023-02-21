@@ -2,7 +2,9 @@
 
 /**
  * _islower - for lower case alphabets
- *
+ * 
+ * @c: integer
+ * 
  * Description: null
  *
  * Return: 1 or 0
