@@ -10,7 +10,7 @@
  * Return: Result return
  */
 
-int tchar(char *c)
+int _putchar(char *c)
 {
 	return (write(1, &c, strlen(c)));
 }
@@ -24,15 +24,15 @@ int tchar(char *c)
 int main(void)
 {
 
-	tchar("_");
-	tchar("p");
-	tchar("u");
-	tchar("t");
-	tchar("c");
-	tchar("h");
-	tchar("a");
-	tchar("r");
-	tchar("\n");
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
 
 	return (0);
 }
