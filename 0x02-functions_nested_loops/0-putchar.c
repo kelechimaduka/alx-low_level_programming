@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
  * _putchar - writes the content of c
@@ -26,5 +27,5 @@ int main(void)
 {
 	int val = _putchar("_putchar");
 
-	return (val);
+	
 }
