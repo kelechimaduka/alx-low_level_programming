@@ -27,8 +27,7 @@ int main(void)
 	int val;
 	char* value = "_putchar";
 
-	val = _putchar(char* value);
+	_putchar(char* value);
 
-	putchar(val);
 	return (0);
 }
