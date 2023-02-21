@@ -8,10 +8,10 @@
 
 void jack_bauer(void)
 {
-	n = 0;
+	int n = 0;
 	for (n = 0; n <= 23; n++)
 	{
-		m = 0
+		int m = 0;
 		for (n = 0; n <= 59; n++)
 		{
 			_putchar(n / 10 + 48);
