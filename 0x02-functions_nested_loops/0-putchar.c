@@ -23,7 +23,7 @@ int tchar(char *c)
 int main(void)
 {
 
-	tchar(95);
+	tchar("95");
 	tchar("112");
 	tchar("u");
 	tchar("t");
