@@ -11,7 +11,7 @@
  * Return: value 1.
  */
 
-int _putchar(c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
@@ -27,7 +27,7 @@ int main(void)
 	int val;
 	char* value = "_putchar";
 
-	val = _putchar(value);
+	val = _putchar(char* value);
 
 	putchar(val);
 	return (0);
