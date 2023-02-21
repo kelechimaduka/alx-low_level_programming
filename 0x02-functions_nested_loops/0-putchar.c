@@ -16,3 +16,21 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
+/**
+ * main- main code
+ *
+ * Return: return success
+ *
+ */
+
+int main(void)
+{
+	int val;
+	char value = "_putchar";
+
+	val = _putchar(value);
+
+	putchar(val);
+	return (0);
+}
