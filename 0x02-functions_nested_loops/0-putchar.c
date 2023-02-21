@@ -1,4 +1,16 @@
+#include <unistd.h>
 #include "main.h"
+
+/**
+ * tchar - function to print
+ *
+ * Return: Result return
+ */
+
+int tchar(char *c)
+{
+	return (write(1, &c, 1));
+}
 
 /**
  * main- main code
