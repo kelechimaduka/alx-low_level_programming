@@ -35,13 +35,14 @@ void print_times_table(int n)
 						m = k % 100;
 						if (m < 10)
 						{
-							_putchar(48)
+							_putchar(48);
 						}
 						else
 						{
 							_putchar(m / 10 +48);
 						h = m % 10;
 						_putchar(h + 48);
+						}
 
 					else if (k >= 10)
 					{
@@ -52,12 +53,12 @@ void print_times_table(int n)
 					{
 						_putchar(k + 48);
 					}
-
-				_putchar(' ');
-				_putchar(',');
+					_putchar(' ');
+					_putchar(',');
+					}
 				}
 			}
-		}
 		_putchar('\n');
+		}
 	}
 }
