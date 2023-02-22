@@ -16,20 +16,23 @@ void times_table(void)
 
 		for (t = 0; t < 10; t++)
 		{
-			int val = t * r;
-
-			if (val < 10)
+			if (t == 0)
 			{
-				_putchar(val + 48);
-				_putchar(',');
-				_putchar(' ');
+				_putchar(48);
+				continue;
 			}
-			else
+			int val = t * r;
+			_putchar(',');
+			_putchar(' ');
+			if (val > 9)
 			{
 				_putchar(val / 10 + 48);
 				_putchar(val % 10 + 48);
-				_putchar(',');
+			}
+			else
+			{
 				_putchar(' ');
+				_putchar(val + 48);
 			}
 		}
 		_putchar('\n');
