@@ -3,6 +3,10 @@
 /**
  * add - adds two numbers
  *
+ * @a: first var
+ *
+ * @b: second var
+ *
  * Return: returns result
  */
 
