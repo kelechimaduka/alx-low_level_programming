@@ -13,6 +13,8 @@ void print_times_table(int n)
 	int j = 0;
 	int i = 0;
 	int k;
+	int m;
+	int h;
 
 	if (n > 15 && n < 0)
 	{
@@ -25,6 +27,7 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				k = i * j;
+
 				{
 					if (k >= 100)
 					{
@@ -39,6 +42,7 @@ void print_times_table(int n)
 							_putchar(m / 10 +48);
 						h = m % 10;
 						_putchar(h + 48);
+
 					else if (k >= 10)
 					{
 						_putchar(k / 10 + 48);
