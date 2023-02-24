@@ -20,17 +20,14 @@ int main(void)
 		if (j == 0 && k == 0)
 		{
 			printf("FizzBuzz ");
-			continue;
 		}
 		else if (j == 0)
 		{
 			printf("Fizz ");
-			continue;
 		}
 		else if (k == 0)
 		{
 			printf("Buzz ");
-			continue;
 		}
 		else
 		{
@@ -39,4 +36,6 @@ int main(void)
 		}
 	}
 _putchar('\n');
+
+return (0);
 }
