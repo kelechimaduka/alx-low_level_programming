@@ -19,10 +19,13 @@ void print_number(int n)
 		i = n;
 		_putchar('-');
 	}
-	i /= 10;
-
-	if (i != 0)
-		print_number(i);
-
+	else if (i = 0)
+	{
+		_putchar(48);
+	}
+	else
+	{
+		i /= 10;
+	}
 	_putchar((unsigned int) n % 10 + '0');
 }
