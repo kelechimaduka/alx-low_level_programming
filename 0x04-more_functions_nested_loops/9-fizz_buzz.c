@@ -19,20 +19,24 @@ int main(void)
 
 		if (j == 0 && k == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (j == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (k == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
 
+		}
+		if (i != 100)
+		{
+			printf(" ");
 		}
 	}
 _putchar('\n');
