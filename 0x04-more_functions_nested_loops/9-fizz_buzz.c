@@ -17,7 +17,7 @@ int main(void)
 
 		k = i % 5;
 
-		if (j == 0 && k == 0)
+		if ((j == 0) && (k == 0))
 		{
 			printf("FizzBuzz");
 		}
