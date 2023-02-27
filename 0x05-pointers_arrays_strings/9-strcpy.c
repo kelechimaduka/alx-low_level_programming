@@ -3,9 +3,9 @@
 /**
  * *_strcpy - copies string from source to destination
  *
- * dest: destination
+ * @dest: destination
  *
- * src: source
+ * @src: source
  *
  * Return: destination value
  */
