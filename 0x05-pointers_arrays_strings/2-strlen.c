@@ -14,11 +14,18 @@ int _strlen(char *s)
 	int i = 0;
 
 	leng = s[0];
-      
+
 	while (leng != '\0')
 	{
 		i++;
-		leng = s[i-1];
+		leng = s[i - 1];
 	}
-	return (i-1);
+	if (i <= 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (i - 1);
+	}
 }
