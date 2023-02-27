@@ -27,10 +27,18 @@ int _atoi(char *s)
 		{
 			x = num[i];
 		}
-	return (sign * x);
+		return (sign * x);
 	}
 	else
 	{
+		for (i = 0; s[i] != '\0'; i++)
+		{
+			num[i] = s[i];
+		}
+		for (i = 0; num[i] <= 9; i++)
+		{
+			x = num[i];
+		}
 		return (x);
 	}
 }
