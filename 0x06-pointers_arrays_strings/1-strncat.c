@@ -2,7 +2,7 @@
 
 /**
  * *_strncat - conatenates teo strings
- * 
+ *
  * @dest: destination
  * @src: source
  * @n: integer concerned
