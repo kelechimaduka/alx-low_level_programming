@@ -11,13 +11,29 @@
 char *cap_string(char *n)
 {
 	int i = 0;
+	int j;
+	int symbols[] = {',', ';', '"', '.', '?', '(', ')', '{', '}', ' ', '\n', '\t'};
 
-	n[0] = n[0] - 32;
-	for (i = 1; n[i] <= 'z' && n[i] >= 'a'; i++)
+	if (n[0] >= 'a' && n[0] <= 'z')
 	{
-		if (n[i] = '\0' || n[i] = 46)
+		n[0] = n[0] - 32;
+	}
+
+	for (i = 1; n[i] != '\0'; i++)
+	{
+		for (j = 0; j <= 12; j++)
 		{
-			n[i + 1] = n[i + 1] - 32;
+			if (n[i] = symbols[j])
+			{
+				if (n[i + 1] = symbol[j])
+				{
+					n[i + 2] = n[i + 2] - 32;
+				}
+				else
+				{
+					n[i + 1] = n[i + 1] - 32;
+				}
+			}
 		}
 	}
 	return (n);
