@@ -22,7 +22,7 @@ char *cap_string(char *n)
 			n[i] = n[i] - z;
 		}
 
-		cap = 0;
+		z = 0;
 
 		for (j = 0; j <= 12; j++)
 		{
