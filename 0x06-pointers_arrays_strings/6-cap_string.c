@@ -15,7 +15,7 @@ char *cap_string(char *n)
 	int symbols[] = {',', ';', '"', '.', '?',
 		'(', ')', '{', '}', ' ', '\n', '\t'};
 
-	for (i = 0; n[0] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
 		{
@@ -28,8 +28,8 @@ char *cap_string(char *n)
 		{
 			if (n[i] == symbols[j])
 			{
-				x = 12;
-				cap = 32;
+				j = 12;
+				z = 32;
 			}
 		}
 	}
