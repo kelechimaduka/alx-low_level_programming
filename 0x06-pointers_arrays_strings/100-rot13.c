@@ -13,6 +13,7 @@ char *rot13(char *n)
 	int x;
 	int rot = 13;
 	int i = 0;
+
 	char switchc[] = {'A' 'N', 'a', 'n', 'B', 'O',
 		'b', 'o', 'C', 'P', 'c', 'p', 'D', 'Q',
 		'd', 'q', 'E', 'R', 'e', 'r', 'F', 'S', 'f',
