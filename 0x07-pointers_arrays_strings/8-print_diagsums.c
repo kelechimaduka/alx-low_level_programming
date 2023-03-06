@@ -22,7 +22,7 @@ void print_diagsums(int *a, int size)
 		{
 			if (i == j)
 			{
-				result1 = result1 + a[i][j];
+				result1 = result1 + a[i];
 			}
 		}
 	}
@@ -30,7 +30,8 @@ void print_diagsums(int *a, int size)
 	for (i = 0; i < size; i++)
 	{
 		j = (size - 1) - i;
-		result2 = result2 + a[i][j];
+		result2 = result2 + a[i * 2];
 	}
+
 	printf("%d, %d\n", result1, result2);
 }
