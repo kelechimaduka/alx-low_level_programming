@@ -15,6 +15,7 @@ void print_diagsums(int *a, int size)
 	int i, j;
 	int result1 = 0;
 	int result2 = 0;
+	int k = size - 1;
 
 	for (i = 0; i < size; i++)
 	{
@@ -22,15 +23,14 @@ void print_diagsums(int *a, int size)
 		{
 			if (i == j)
 			{
-				result1 = result1 + a[i];
+				result1 = result1 + a[i * (size + 1)];
 			}
 		}
 	}
 
 	for (i = 0; i < size; i++)
 	{
-		j = (size - 1) - i;
-		result2 = result2 + a[i * 2];
+		result2 = result2 + a[k + (k * i)];
 	}
 
 	printf("%d, %d\n", result1, result2);
