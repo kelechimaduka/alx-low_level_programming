@@ -31,7 +31,7 @@ int is_prime_number(int n)
 
 int prime_number(int n)
 {
-	i = n % 2;
+	int i = n % 2;
 
 	if (i == 5 || i == 0)
 	{
