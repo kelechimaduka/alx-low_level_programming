@@ -33,7 +33,7 @@ int prime_number(int n)
 {
 	i = n % 2;
 
-	if (i == 5)
+	if (i == 5 || i == 0)
 	{
 		return (1);
 	}
