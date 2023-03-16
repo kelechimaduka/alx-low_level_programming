@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 
-	if (i = 0; 1 < r3; i++)
+	for (i = 0; 1 < r3; i++)
 	{
 		if (i < r1)
 		{
