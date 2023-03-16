@@ -4,8 +4,8 @@
 /**
  * main - main
  *
- * argc: argc
- * argv: argv
+ * @argc: argc
+ * @argv: argv
  *
  * Return: success
  */
