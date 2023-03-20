@@ -41,7 +41,7 @@ void print_dog(struct dog *d)
 		}
 	}
 
-	else
+	else if
 	{
 		printf("");
 	}
