@@ -4,4 +4,3 @@
 #define SIZE 1024
 
 #endif
-This readme has been created prestudy of preprocessors
