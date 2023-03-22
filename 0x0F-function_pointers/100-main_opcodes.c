@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	num = atoi(arg[1]);
+	num = atoi(argv[1]);
 
 	if (num < 0)
 	{
