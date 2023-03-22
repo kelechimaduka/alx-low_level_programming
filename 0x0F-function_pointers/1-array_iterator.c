@@ -1,4 +1,4 @@
-#include "fiunction_pointers.h"
+#include "function_pointers.h"
 
 /**
  * srray_iterator - iterates array
