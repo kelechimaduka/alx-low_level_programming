@@ -83,4 +83,9 @@ list_t *add_node_end(list_t **head, const char *str)
 		old = old->next;
 	old->next = new;
 	return (*head);
+
+	if (malloc() == NULL || _strdup() == NULL)
+	{
+		free();
+	}
 }
