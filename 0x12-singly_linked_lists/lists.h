@@ -7,7 +7,7 @@
  *
  * @str: string
  * @len: length
- * @next_item: next item
+ * @next: next item
  *
  */
 typedef struct list_s
