@@ -40,7 +40,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	len = _strlen(str);
 	k = *head;
-	j = malloc((len +1) * sizeof(char));
+	j = malloc((len + 1) * sizeof(char));
 	if (j == NULL)
 		return (NULL);
 	for (i = 0; str[i]; i++)
