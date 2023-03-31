@@ -56,7 +56,7 @@ void *_strdup(const char *src)
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new, *old
+	list_t *new, *old;
 	char *mstr;
 
 	if (str == NULL)
