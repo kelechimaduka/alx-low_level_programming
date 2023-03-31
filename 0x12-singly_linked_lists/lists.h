@@ -6,14 +6,14 @@
  * struct list_s - singly linked list
  *
  * @str: string
- * @lengthh: length
+ * @len: length
  * @next_item: next item
  *
  */
 typedef struct list_s
 {
 	char *str;
-	unsigned int lengthh;
+	unsigned int len;
 	struct list_s *next_item;
 }
 list_t;
