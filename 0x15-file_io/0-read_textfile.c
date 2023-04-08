@@ -31,7 +31,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	status = read(file_nom, buffer, letters);
 	write(STDOUT_FILENO, buffer, status);
-	all += atatus;
+	all += status;
 	close(file_nom);
 	return (all);
 }
