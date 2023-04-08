@@ -48,7 +48,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	output = temp_store = 0;
 	j = 1;
-	for (i = _strlen(b) - 1; b[k]; k--, j *= 2)
+	for (k = _strlen(b) - 1; b[k]; k--, j *= 2)
 	{
 		if (b[k] != '0' && b[k] != '1')
 			return (0);
