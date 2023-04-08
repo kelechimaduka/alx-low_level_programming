@@ -4,7 +4,7 @@
  * flip_bits - returns the number of bits to be flipped to get anothe number
  *
  * @n: int
- * @index: index
+ * @m: int
  *
  * Return: sucess
  */
