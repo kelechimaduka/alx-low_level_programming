@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/*get_endianness - processor endianness
+/**
+ * get_endianness - processor endianness
  *
  * Return: Success
  */
